@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Entire Nairobi Ranch in Lamu County.kmz</name>
+	<Style id="line1">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="line10">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Line Features</name>
+		<description>Line Features</description>
+		<Placemark>
+			<description>0</description>
+			<styleUrl>#line11</styleUrl>
+			<LineString>
+				<coordinates>
+					40.5257287438,-2.4010105339,0 40.5375003306,-2.4014037172,0 40.5381559927,-2.3768280073,0 40.5576062316,-2.3654434608,0 40.560532172,-2.3694573233,0 40.5710870367,-2.3632502758,0 40.5686595713,-2.3586006483,0 40.5889662541,-2.3506755907,0 40.5918009796,-2.3499758943,0 40.6269545838,-2.3372140578,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>0</description>
+			<styleUrl>#line11</styleUrl>
+			<LineString>
+				<coordinates>
+					40.5257287438,-2.4010105339,0 40.5217361231,-2.4411176314,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>0</description>
+			<styleUrl>#line11</styleUrl>
+			<LineString>
+				<coordinates>
+					40.5457417451,-2.4642774743,0 40.5226577509,-2.4803659635,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>0</description>
+			<styleUrl>#line11</styleUrl>
+			<LineString>
+				<coordinates>
+					40.5217361231,-2.4411176314,0 40.5348684105,-2.4720769909,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<description>0</description>
+			<styleUrl>#line11</styleUrl>
+			<LineString>
+				<coordinates>
+					40.5457417451,-2.4642774743,0 40.5612470685,-2.489056996,0 40.5458425748,-2.4997061769,0 40.5643130388,-2.5415748219,0 40.6087153182,-2.5551251661,0 40.6190845712,-2.5513630895,0 40.6193484752,-2.5520012281,0 40.6253708445,-2.5487572035,0 40.6269471286,-2.3372167644,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

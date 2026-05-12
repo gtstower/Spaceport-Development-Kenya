@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kenya_coast.shp</name>
+	<Schema name="Kenya_coast" id="S_Kenya_coast_SSSSSSSSSSSDDSSS">
+		<SimpleField type="long" name="MRGID"><displayName>&lt;b&gt;MRGID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GEONAME"><displayName>&lt;b&gt;GEONAME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_TER1"><displayName>&lt;b&gt;MRGID_TER1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="POL_TYPE"><displayName>&lt;b&gt;POL_TYPE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_SOV1"><displayName>&lt;b&gt;MRGID_SOV1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TERRITORY1"><displayName>&lt;b&gt;TERRITORY1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ISO_TER1"><displayName>&lt;b&gt;ISO_TER1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SOVEREIGN1"><displayName>&lt;b&gt;SOVEREIGN1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_TER2"><displayName>&lt;b&gt;MRGID_TER2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_SOV2"><displayName>&lt;b&gt;MRGID_SOV2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TERRITORY2"><displayName>&lt;b&gt;TERRITORY2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ISO_TER2"><displayName>&lt;b&gt;ISO_TER2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SOVEREIGN2"><displayName>&lt;b&gt;SOVEREIGN2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_TER3"><displayName>&lt;b&gt;MRGID_TER3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_SOV3"><displayName>&lt;b&gt;MRGID_SOV3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TERRITORY3"><displayName>&lt;b&gt;TERRITORY3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ISO_TER3"><displayName>&lt;b&gt;ISO_TER3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SOVEREIGN3"><displayName>&lt;b&gt;SOVEREIGN3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="X_1"><displayName>&lt;b&gt;X_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Y_1"><displayName>&lt;b&gt;Y_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="MRGID_EEZ"><displayName>&lt;b&gt;MRGID_EEZ&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="AREA_KM2"><displayName>&lt;b&gt;AREA_KM2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ISO_SOV1"><displayName>&lt;b&gt;ISO_SOV1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ISO_SOV2"><displayName>&lt;b&gt;ISO_SOV2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ISO_SOV3"><displayName>&lt;b&gt;ISO_SOV3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="UN_SOV1"><displayName>&lt;b&gt;UN_SOV1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="UN_SOV2"><displayName>&lt;b&gt;UN_SOV2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="UN_SOV3"><displayName>&lt;b&gt;UN_SOV3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="UN_TER1"><displayName>&lt;b&gt;UN_TER1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="UN_TER2"><displayName>&lt;b&gt;UN_TER2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="UN_TER3"><displayName>&lt;b&gt;UN_TER3&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>MRGID</b></td><td>$[Kenya_coast/MRGID]</td></tr>
+  <tr><td><b>GEONAME</b></td><td>$[Kenya_coast/GEONAME]</td></tr>
+  <tr><td><b>MRGID_TER1</b></td><td>$[Kenya_coast/MRGID_TER1]</td></tr>
+  <tr><td><b>POL_TYPE</b></td><td>$[Kenya_coast/POL_TYPE]</td></tr>
+  <tr><td><b>MRGID_SOV1</b></td><td>$[Kenya_coast/MRGID_SOV1]</td></tr>
+  <tr><td><b>TERRITORY1</b></td><td>$[Kenya_coast/TERRITORY1]</td></tr>
+  <tr><td><b>ISO_TER1</b></td><td>$[Kenya_coast/ISO_TER1]</td></tr>
+  <tr><td><b>SOVEREIGN1</b></td><td>$[Kenya_coast/SOVEREIGN1]</td></tr>
+  <tr><td><b>MRGID_TER2</b></td><td>$[Kenya_coast/MRGID_TER2]</td></tr>
+  <tr><td><b>MRGID_SOV2</b></td><td>$[Kenya_coast/MRGID_SOV2]</td></tr>
+  <tr><td><b>TERRITORY2</b></td><td>$[Kenya_coast/TERRITORY2]</td></tr>
+  <tr><td><b>ISO_TER2</b></td><td>$[Kenya_coast/ISO_TER2]</td></tr>
+  <tr><td><b>SOVEREIGN2</b></td><td>$[Kenya_coast/SOVEREIGN2]</td></tr>
+  <tr><td><b>MRGID_TER3</b></td><td>$[Kenya_coast/MRGID_TER3]</td></tr>
+  <tr><td><b>MRGID_SOV3</b></td><td>$[Kenya_coast/MRGID_SOV3]</td></tr>
+  <tr><td><b>TERRITORY3</b></td><td>$[Kenya_coast/TERRITORY3]</td></tr>
+  <tr><td><b>ISO_TER3</b></td><td>$[Kenya_coast/ISO_TER3]</td></tr>
+  <tr><td><b>SOVEREIGN3</b></td><td>$[Kenya_coast/SOVEREIGN3]</td></tr>
+  <tr><td><b>X_1</b></td><td>$[Kenya_coast/X_1]</td></tr>
+  <tr><td><b>Y_1</b></td><td>$[Kenya_coast/Y_1]</td></tr>
+  <tr><td><b>MRGID_EEZ</b></td><td>$[Kenya_coast/MRGID_EEZ]</td></tr>
+  <tr><td><b>AREA_KM2</b></td><td>$[Kenya_coast/AREA_KM2]</td></tr>
+  <tr><td><b>ISO_SOV1</b></td><td>$[Kenya_coast/ISO_SOV1]</td></tr>
+  <tr><td><b>ISO_SOV2</b></td><td>$[Kenya_coast/ISO_SOV2]</td></tr>
+  <tr><td><b>ISO_SOV3</b></td><td>$[Kenya_coast/ISO_SOV3]</td></tr>
+  <tr><td><b>UN_SOV1</b></td><td>$[Kenya_coast/UN_SOV1]</td></tr>
+  <tr><td><b>UN_SOV2</b></td><td>$[Kenya_coast/UN_SOV2]</td></tr>
+  <tr><td><b>UN_SOV3</b></td><td>$[Kenya_coast/UN_SOV3]</td></tr>
+  <tr><td><b>UN_TER1</b></td><td>$[Kenya_coast/UN_TER1]</td></tr>
+  <tr><td><b>UN_TER2</b></td><td>$[Kenya_coast/UN_TER2]</td></tr>
+  <tr><td><b>UN_TER3</b></td><td>$[Kenya_coast/UN_TER3]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.1</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>MRGID</b></td><td>$[Kenya_coast/MRGID]</td></tr>
+  <tr><td><b>GEONAME</b></td><td>$[Kenya_coast/GEONAME]</td></tr>
+  <tr><td><b>MRGID_TER1</b></td><td>$[Kenya_coast/MRGID_TER1]</td></tr>
+  <tr><td><b>POL_TYPE</b></td><td>$[Kenya_coast/POL_TYPE]</td></tr>
+  <tr><td><b>MRGID_SOV1</b></td><td>$[Kenya_coast/MRGID_SOV1]</td></tr>
+  <tr><td><b>TERRITORY1</b></td><td>$[Kenya_coast/TERRITORY1]</td></tr>
+  <tr><td><b>ISO_TER1</b></td><td>$[Kenya_coast/ISO_TER1]</td></tr>
+  <tr><td><b>SOVEREIGN1</b></td><td>$[Kenya_coast/SOVEREIGN1]</td></tr>
+  <tr><td><b>MRGID_TER2</b></td><td>$[Kenya_coast/MRGID_TER2]</td></tr>
+  <tr><td><b>MRGID_SOV2</b></td><td>$[Kenya_coast/MRGID_SOV2]</td></tr>
+  <tr><td><b>TERRITORY2</b></td><td>$[Kenya_coast/TERRITORY2]</td></tr>
+  <tr><td><b>ISO_TER2</b></td><td>$[Kenya_coast/ISO_TER2]</td></tr>
+  <tr><td><b>SOVEREIGN2</b></td><td>$[Kenya_coast/SOVEREIGN2]</td></tr>
+  <tr><td><b>MRGID_TER3</b></td><td>$[Kenya_coast/MRGID_TER3]</td></tr>
+  <tr><td><b>MRGID_SOV3</b></td><td>$[Kenya_coast/MRGID_SOV3]</td></tr>
+  <tr><td><b>TERRITORY3</b></td><td>$[Kenya_coast/TERRITORY3]</td></tr>
+  <tr><td><b>ISO_TER3</b></td><td>$[Kenya_coast/ISO_TER3]</td></tr>
+  <tr><td><b>SOVEREIGN3</b></td><td>$[Kenya_coast/SOVEREIGN3]</td></tr>
+  <tr><td><b>X_1</b></td><td>$[Kenya_coast/X_1]</td></tr>
+  <tr><td><b>Y_1</b></td><td>$[Kenya_coast/Y_1]</td></tr>
+  <tr><td><b>MRGID_EEZ</b></td><td>$[Kenya_coast/MRGID_EEZ]</td></tr>
+  <tr><td><b>AREA_KM2</b></td><td>$[Kenya_coast/AREA_KM2]</td></tr>
+  <tr><td><b>ISO_SOV1</b></td><td>$[Kenya_coast/ISO_SOV1]</td></tr>
+  <tr><td><b>ISO_SOV2</b></td><td>$[Kenya_coast/ISO_SOV2]</td></tr>
+  <tr><td><b>ISO_SOV3</b></td><td>$[Kenya_coast/ISO_SOV3]</td></tr>
+  <tr><td><b>UN_SOV1</b></td><td>$[Kenya_coast/UN_SOV1]</td></tr>
+  <tr><td><b>UN_SOV2</b></td><td>$[Kenya_coast/UN_SOV2]</td></tr>
+  <tr><td><b>UN_SOV3</b></td><td>$[Kenya_coast/UN_SOV3]</td></tr>
+  <tr><td><b>UN_TER1</b></td><td>$[Kenya_coast/UN_TER1]</td></tr>
+  <tr><td><b>UN_TER2</b></td><td>$[Kenya_coast/UN_TER2]</td></tr>
+  <tr><td><b>UN_TER3</b></td><td>$[Kenya_coast/UN_TER3]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2.1</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Kenya_coast</name>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Kenya_coast_SSSSSSSSSSSDDSSS">
+					<SimpleData name="MRGID">1</SimpleData>
+					<SimpleData name="GEONAME"></SimpleData>
+					<SimpleData name="MRGID_TER1">0</SimpleData>
+					<SimpleData name="POL_TYPE"></SimpleData>
+					<SimpleData name="MRGID_SOV1">0</SimpleData>
+					<SimpleData name="TERRITORY1"></SimpleData>
+					<SimpleData name="ISO_TER1"></SimpleData>
+					<SimpleData name="SOVEREIGN1"></SimpleData>
+					<SimpleData name="MRGID_TER2">0</SimpleData>
+					<SimpleData name="MRGID_SOV2">0</SimpleData>
+					<SimpleData name="TERRITORY2"></SimpleData>
+					<SimpleData name="ISO_TER2"></SimpleData>
+					<SimpleData name="SOVEREIGN2"></SimpleData>
+					<SimpleData name="MRGID_TER3">0</SimpleData>
+					<SimpleData name="MRGID_SOV3">0</SimpleData>
+					<SimpleData name="TERRITORY3"></SimpleData>
+					<SimpleData name="ISO_TER3"></SimpleData>
+					<SimpleData name="SOVEREIGN3"></SimpleData>
+					<SimpleData name="X_1">0</SimpleData>
+					<SimpleData name="Y_1">0</SimpleData>
+					<SimpleData name="MRGID_EEZ">0</SimpleData>
+					<SimpleData name="AREA_KM2">0</SimpleData>
+					<SimpleData name="ISO_SOV1"></SimpleData>
+					<SimpleData name="ISO_SOV2"></SimpleData>
+					<SimpleData name="ISO_SOV3"></SimpleData>
+					<SimpleData name="UN_SOV1">0</SimpleData>
+					<SimpleData name="UN_SOV2">0</SimpleData>
+					<SimpleData name="UN_SOV3">0</SimpleData>
+					<SimpleData name="UN_TER1">0</SimpleData>
+					<SimpleData name="UN_TER2">0</SimpleData>
+					<SimpleData name="UN_TER3">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							41.55885923321337,-1.662231886412548,0 41.55822066659663,-1.662814315304764,0 41.55067014264448,-1.673761171592185,0 41.5187839150996,-1.702222997939493,0 41.50884753785412,-1.711261171592191,0 41.49335352587806,-1.737982728478422,0 41.48953616060861,-1.748312069795765,0 41.47314394503972,-1.763581530873615,0 41.39410202887207,-1.871815063807754,0 41.3891619091116,-1.876306081771808,0 41.38175172947086,-1.881919854226901,0 41.37164693905169,-1.892698297340676,0 41.36266490312359,-1.906171351232899,0 41.36232807677625,-1.912739465005364,0 41.35823002288406,-1.916556830274792,0 41.35188646000979,-1.92295653087363,0 41.34941640012956,-1.918577788358653,0 41.29776969354274,-1.906901141652075,0 41.22232059174634,-1.894326291352655,0 41.06782957378228,-1.8835478482389,0 40.82351819653673,-1.894326291352655,0 40.76962598096792,-2.059595752430508,0 40.68519484324337,-2.142230482969414,0 40.66723077138707,-2.233847249436489,0 40.59357807677628,-2.418877189556246,0 40.51812897497991,-2.445823297340672,0 40.27202119054876,-2.533847249436496,0 40.1624403522254,-2.695523896143077,0 40.1444762803691,-2.763787369196957,0 40.11573376539906,-2.954206530873611,0 40.04747029234515,-3.126661620693967,0 39.8929792743811,-3.444625692550252,0 39.84447628036914,-3.5092963512329,0 39.79238047198589,-3.620673596741879,0 39.8319014300697,-3.696122698538282,0 39.77576370551885,-3.859146650634098,0 39.74028466360268,-3.908098746442485,0 39.70166190911162,-3.917529884167046,0 39.68639244803379,-3.939086770394575,0 39.67561400492004,-3.972320303328702,0 39.63070382527933,-3.975913117699974,0 39.61094334623738,-3.991182578777803,0 39.54447628036909,-4.030703536861631,0 39.56603316659668,-4.091781381173007,0 39.62980562168651,-4.109745453029285,0 39.60645232827331,-4.15465563267003,0 39.57501520252479,-4.257949045843683,0 39.55345831629728,-4.345972997939467,0 39.52741041210566,-4.396272399137069,0 39.47980562168648,-4.454655632670017,0 39.46004514264458,-4.516631680574217,0 39.45184903486015,-4.522694554825701,0 39.44511250791405,-4.526736470993365,0 39.43332358575837,-4.531564315304772,0 39.42389244803379,-4.53380982428677,0 39.42400472348292,-4.544363716502349,0 39.41277717857274,-4.549079285364619,0 39.40873526240506,-4.550089764406559,0 39.41277717857274,-4.562552339256863,0 39.41468586120745,-4.576699045843673,0 39.40289693905177,-4.582312818298766,0 39.39885502288413,-4.580291860214944,0 39.39402717857271,-4.576362219496359,0 39.3945885558182,-4.584895153628117,0 39.39290442408166,-4.590733476981406,0 39.39166939414154,-4.598592758418536,0 39.39413945402181,-4.607350243448489,0 39.3948131067164,-4.615321800334698,0 39.39941640012962,-4.624303836262847,0 39.40817388515957,-4.625651141652081,0 39.40974574144694,-4.631601740454448,0 39.40660202887211,-4.641257429077204,0 39.39514993306373,-4.647993956023335,0 39.37617538216551,-4.645299345244867,0 39.36517238815357,-4.643278387161045,0 39.34743286719547,-4.641145153628125,0 39.33811400492002,-4.641818806322712,0 39.32958107078827,-4.643952039855672,0 39.3246409510278,-4.643390662610123,0 39.31790442408169,-4.641706530873615,0 39.30768735821342,-4.638562818298775,0 39.3048804719859,-4.63620503386764,0 39.30544184923139,-4.631040363208938,0 39.30532957378229,-4.62935623147243,0 39.30712598096793,-4.624977488957454,0 39.30712598096793,-4.619700542849674,0 39.30757508276437,-4.617005932071205,0 39.30937148994997,-4.613525393149072,0 39.30690143006974,-4.612627189556269,0 39.30735053186613,-4.608472997939488,0 39.30791190911162,-4.603981979975393,0 39.30735053186613,-4.600613716502357,0 39.30566640012962,-4.596571800334694,0 39.30690143006974,-4.593877189556245,0 39.31094334623738,-4.589722997939485,0 39.31330113066851,-4.586354734466429,0 39.31352568156671,-4.581414614705944,0 39.31116789713558,-4.583996950035294,0 39.30824873545895,-4.587814315304741,0 39.30364544204578,-4.59365263865805,0 39.30196131030927,-4.597694554825713,0 39.29791939414154,-4.599490962011339,0 39.29836849593798,-4.595898147640067,0 39.29455113066853,-4.586691560813742,0 39.29423535596794,-4.580558514406552,0 39.29317575641704,-4.579737500184984,0 39.29297927438112,-4.579933982220926,0 39.29340030731524,-4.586607354226919,0 39.29660015761465,-4.597161246442479,0 39.29587036719547,-4.602522399137081,0 39.29118286719547,-4.611546538358661,0 39.29044605956073,-4.615097249436502,0 39.28761110447089,-4.615925280873618,0 39.28751286345293,-4.618304116951459,0 39.28697955506971,-4.618437444047263,0 39.28135174818348,-4.616177900634089,0 39.28065002662662,-4.615027077280796,0 39.27903606704576,-4.599771650634104,0 39.27903606704576,-4.596880557819734,0 39.28111316285411,-4.593891223987383,0 39.27715545327329,-4.596908626681988,0 39.27062242557871,-4.586993301083194,0 39.26955580881224,-4.587863435813741,0 39.26440517258467,-4.587196800334683,0 39.25986503411162,-4.588670415604152,0 39.25739497423139,-4.589912462759857,0 39.25726866435112,-4.590221220244876,0 39.26207545701581,-4.590038772640073,0 39.26610684736013,-4.58827745153229,0 39.27132765574338,-4.58999666934668,0 39.271545189426,-4.590186134167034,0 39.27355211307871,-4.593329846741874,0 39.27393805993498,-4.594677152131108,0 39.27407138703079,-4.595778854975401,0 39.27295564975533,-4.596368301083205,0 39.2776501669709,-4.60181366036463,0 39.27777647685117,-4.602227676083199,0 39.27813435484517,-4.607532691053253,0 39.27689932490506,-4.611293918598172,0 39.27507484885717,-4.610704472490388,0 39.27666073957572,-4.615406006921521,0 39.27639408538412,-4.618493581771812,0 39.27532220570598,-4.625979196479904,0 39.27382403018202,-4.627763323538295,0 39.27352579852033,-4.627861564556235,0 39.2704505037973,-4.625966916352668,0 39.26688575828832,-4.627756306322706,0 39.26475954197095,-4.626710741202961,0 39.26732784286914,-4.616984880424519,0 39.26555950454577,-4.618669012161027,0 39.26525074706075,-4.622079378927515,0 39.26280173882726,-4.623560011412533,0 39.26100357733776,-4.624096828403572,0 39.26071411719554,-4.623824911300258,0 39.25800196337813,-4.621282924960437,0 39.25472492370751,-4.624251207146082,0 39.25316008463562,-4.627752797714941,0 39.25160226277936,-4.624328396517337,0 39.25134262580328,-4.626963360963432,0 39.24736737318356,-4.632149083268839,0 39.24893922947096,-4.633580595244857,0 39.24912167707579,-4.634815625184993,0 39.24885502288414,-4.635208589256856,0 39.24509379533924,-4.632542047340682,0 39.24680599593803,-4.634941935065228,0 39.2441113851596,-4.636401515903581,0 39.236813480968,-4.63539103686164,0 39.23793623545897,-4.637075168598168,0 39.24220270252489,-4.638422473987383,0 39.24669372048893,-4.642688941053241,0 39.2441113851596,-4.645608102729906,0 39.24321318156677,-4.645046725484397,0 39.24310090611768,-4.643699420095182,0 39.23939581629729,-4.645608102729906,0 39.23950809174642,-4.647853611711943,0 39.23804851090811,-4.648639539855647,0 39.23793623545897,-4.651221875184999,0 39.23546617557874,-4.654590138658055,0 39.23613982827337,-4.66166349195146,0 39.2337820438422,-4.663010797340695,0 39.23108743306376,-4.6585197793766,0 39.2261473133033,-4.67109462967602,0 39.22311587617757,-4.673227863208959,0 39.22131946899197,-4.676820677580231,0 39.2215440198902,-4.678729360214935,0 39.2291787504291,-4.678504809316739,0 39.23344521749498,-4.680076665604169,0 39.25073563665661,-4.687486845244868,0 39.25522665462073,-4.707247324286792,0 39.2673524031237,-4.723190438059248,0 39.2994631815668,-4.752606605723908,0 39.30103503785426,-4.762262294346664,0 39.31843773246502,-4.786962893149074,0 39.35009940911173,-4.834230857220914,0 39.35503952887225,-4.845682953029316,0 39.36020419953091,-4.853879060813739,0 39.36615479833329,-4.862973372190986,0 39.38164881030936,-4.87827090213111,0 39.38566265761472,-4.881358476981401,0 39.39301669953092,-4.886186321292789,0 39.40087598096805,-4.890396650634099,0 39.40817388515968,-4.893512294346685,0 39.41112111569858,-4.894635048837703,0 39.4205803222854,-4.897470003927504,0 39.42723264264469,-4.89876117159219,0 39.4347831665968,-4.899940063807757,0 39.43823563665664,-4.900108476981424,0 39.44216527737522,-4.90033302787962,0 39.44775098096808,-4.900248821292797,0 39.45328054683631,-4.899940063807757,0 39.46094334623752,-4.898901515903562,0 39.46338533725548,-4.898424345244877,0 39.46525191659681,-4.898087518897563,0 39.47584089489021,-4.895224494945467,0 39.4768583911477,-4.89490170302931,0 39.477910973483,-4.894494704526331,0 39.47865479833331,-4.894242084765841,0 39.60573657228543,-4.683564221741872,0 43.31189300941114,-4.686427245693987,0 44.02147384773451,-3.975050000185014,0 44.64752175192615,-3.117265569047269,0 45.802162470489,-1.766816467250867,0 45.93398788216562,-1.662484506173039,0 41.55957498920161,-1.662217851981411,0 41.55885923321337,-1.662231886412548,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
