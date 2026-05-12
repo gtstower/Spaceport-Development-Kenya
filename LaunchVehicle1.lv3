@@ -1,0 +1,645 @@
+VO_V110
+    InitializeSolarPanels     No
+    Modelfile                 C:\Users\KSA\Documents\STK 11 (x64)\SPACEPORT_IAC2025_1\pslv.mdl
+    UseCatalogModelFile       Yes
+    ModelDefaultColorFromMarker    No
+    IgnoreModelBoundRadius    Yes
+    IsShowingModel            Yes
+    ModelScale                19.952623
+    IsSwapped                 Yes
+    Level0SwapDistance        1000000000000000.000000
+    Level1SwapDistance        1000000000000000.000000
+    Level2SwapDistance        1000000000000000.000000
+    Level3SwapDistance        1000000000000000.000000
+    Level4SwapDistance        1000000000000000.000000
+    ShowMarker                Yes
+    Begin Marker
+        Show               Yes
+        Type               LineGraphic
+        Shape              Point
+        IsTransparent      No
+        OneOneBlend        No
+        Rotate             No
+        Angle              0.000000
+        HorizOrigin        Center
+        VertOrigin         Center
+        MinSize            10
+        SizeInMeters       No
+        RotateRelToNorth   No
+        UseDirectionAngle  No
+    End
+    Begin GlintMarker
+        Show               No
+        Type               LineGraphic
+        Shape              Point
+        IsTransparent      No
+        OneOneBlend        No
+        Rotate             No
+        Angle              0.000000
+        HorizOrigin        Center
+        VertOrigin         Center
+        MinSize            4
+        SizeInMeters       No
+        RotateRelToNorth   No
+        UseDirectionAngle  No
+    End
+    Begin OrbitFrames
+        InertialCoordFrame     No
+        PersistCBIForAllPasses No
+        FixedCoordFrame        No
+        PersistCBFForAllPasses No
+        Begin OrbitSystem
+            Show                Yes
+            PersistForAllPasses Yes
+            Begin System
+                Name "Fixed"
+                CBName Earth
+            End
+        End OrbitSystem
+    End OrbitFrames
+    Begin Covariance
+        UseProbability Yes
+        Probability 95.000000
+        Scale 2.795484
+        NonIntervalLineWidth 1.000000
+        NonIntervalTranslucency 0.000000
+        NonIntervalShow  No
+        NonIntervalColorIndex #ffa500
+        DefaultIntervalLineWidth 1.000000
+        DefaultIntervalTranslucency 0.000000
+        DefaultIntervalShow  Yes
+        DefaultIntervalColorIndex #f08080
+        UseIntervals No
+        UseEllipticCoord No
+    End
+    Begin PointingCovarianceList
+         FixScaleToModel      Yes
+         ConeScale            630.957344
+    Begin PointingCovariance
+        UseProbability Yes
+        Probability 95.000000
+        Scale 2.447746
+        ShowCone No
+        NonIntervalLineWidth 1.000000
+        NonIntervalTranslucency  0.000000
+        NonIntervalShow  No
+        NonIntervalColorIndex #00ff00
+        DefaultIntervalLineWidth 1.000000
+        DefaultIntervalTranslucency  0.000000
+        DefaultIntervalShow  Yes
+        DefaultIntervalColorIndex #00ff00
+        UseIntervals No
+            ProjectCrossSectType ProjectPerspective
+            TargetPath LaunchVehicle/GSLV-GEO
+    End
+    End
+    UseModelFilePosOffset     No
+    UseModelPosOffset         No
+    ModelPosOffset            0.000000000000 0.000000000000 0.000000000000
+    UseModelRotation          No
+    ModelRotation             0.000000000000 0.000000000000 0.000000000000
+    DontSaveArticFile         Yes
+    ArticulationFileEnabled      No
+    ObscurationToObject       No
+    Inherit2DPassGfx          No
+    GtLeadingType             AllData
+    GtTrailingType            AllData
+    OrbitLeadingType          AllData
+    OrbitTrailingType         AllData
+    GtArcDrawRouteOnSurface   No
+    FixVectorAxesScaleToModel No
+    FixVectorAxesScaleToAttSph No
+    VectorAxesAngleSwapDist    -0.500000
+    PlaneSwapDist              -2.500000
+    Begin GeneralVectorAxes
+        ArrowPointSize          3.00
+        PersistentLineWidth     2.00
+        Scale                   316.227766
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Duration                600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        Label                   Name
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #00ff00
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector No
+            IsCentralBodyFrame No
+            Name "Body"
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Duration                600.000
+        IsShowing               Yes
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        Label                   Name
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #9b30ff
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector No
+            IsCentralBodyFrame No
+            Name "VVLH"
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Duration                600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        Label                   Name
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #f0ffff
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector Yes
+            IsCentralBodyFrame No
+            Name "FlightDir"
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame No
+            Name "Body"
+        End
+        Duration                600.000
+        IsShowing               Yes
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        Label                   Name
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #ff0000
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector Yes
+            IsCentralBodyFrame No
+            Name "LiftAxis"
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame No
+            Name "Body"
+            Object _Default
+        End
+        Duration                600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        Label                   Name
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #00ff00
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAngle
+        FractionalScale                1.000000
+        SupportingDihedralArcLineWidth 1.00
+        ArcLineWidth                   2.00
+        PixelThreshold                 0.500000
+    End
+    Begin Plane
+    End
+    SetModelColorArtic    Yes
+    SaveArticStateAsDef       Yes
+    Begin DefModelArticValues
+        Begin ModelFile
+            ModelFile   pslv.mdl
+            Begin ModelFileValues
+                Stg_1_Flame    Size    0    1.000000
+                StrapOn_Flame    Size    0    1.000000
+            End ModelFileValues
+        End ModelFile
+    End DefModelArticValues
+    ShowElevFov               Yes
+    ShowElevFovCones          No
+    ElevFovTranslucency       0.700
+    ShowElevContourFill       No
+    ElevContourFillTranslucency  0.500
+    ShowRangeContours         No
+    TranslRangeCntrLines      No
+    RangeCntrLineTransl       0.7000
+    RangeLblSwapDist          -2.5000
+    AOULblSwapDist            -1.5000
+    BorderWallShowOnOff              No
+    BorderWallUseTerrainAltFileOnOff No
+    BorderWallTransparencyOnOff      No
+    BorderWallLineTransparencyOnOff  No
+    BorderWallTransparency           0.700000
+    BorderWallLineTransparency       0.700000
+    BorderWallTopCapType             WGS84
+    BorderWallTopCap                 0.000000
+    BorderWallBotCapType             WGS84
+    BorderWallBotCap                 0.000000
+    BorderWallSampleRate             2.000000
+    ShowSAAContour            No
+    IsShowingGeoBox           No
+    GeoBoxColorIndex          #ff0000
+    GeoBoxNS                  0.01745329252
+    GeoBoxEW                  0.01745329252
+    GeoBoxTickSpacing         0.00349065850
+    TrkTickFrequencyTime      60.000000
+    ShowOrbTrkTicks           No
+    OrbTrkTickWidth           50000.000000
+    OrbTrkPointSize           3.000000
+    OrbTrkLinWidth            1.000000
+    OrbTrkStyle               CrossTrack
+    ShowGrdTrkTicks           No
+    GrdTrkTickWidth           50000.000000
+    GrdTrkPointSize           5.000000
+    GrdTrkLinWidth            1.000000
+    GrdTrkStyle               Point
+    Begin ControlBox
+        Show             No
+        ShowLabels       Yes
+        ShowUserText     No
+        ColorIndex       #00ffff
+        LineStyle        3
+        LineWidth        1.000000
+        Begin RefFrame
+		VNC(CBF)
+        End
+        UseTranslucency  Yes
+        Translucency     0.900000
+        XLength          60000.000000
+        YLength          50000.000000
+        ZLength          20000.000000
+        XOffset          0.000000
+        YOffset          0.000000
+        ZOffset          0.000000
+    End
+    Begin BearingBox
+        Show             No
+        ShowLabels       No
+        ShowUserText     No
+        ColorIndex       #00ffff
+        LineStyle        0
+        LineWidth        1.000000
+        UseTranslucency  Yes
+        Translucency     0.900000
+        XLength          60000.000000
+        YLength          50000.000000
+        ZLength          20000.000000
+        XOffset          0.000000
+        YOffset          0.000000
+        ZOffset          0.000000
+        Bearing          0.000000
+    End
+    Begin BearingEllipse
+        Show             No
+        ShowLabels       No
+        ShowUserText     No
+        ColorIndex       #00ffff
+        LineStyle        0
+        LineWidth        1.000000
+        SemiMajorAxis    50000.000000
+        SemiMinorAxis    20000.000000
+        MajorAxisOffset  0.000000
+        MinorAxisOffset  0.000000
+        Bearing          0.000000
+        Granularity      0.052360
+    End
+    Begin LineOfBearing
+        Show             No
+        ShowLabels       No
+        ShowUserText     No
+        ColorIndex       #00ffff
+        LineStyle        0
+        LineWidth        1.000000
+        Bearing         0.000000
+        BearingError    0.261799
+        Length          12000.000000
+        ErrorColorIndex #ff0000
+        ErrorLineStyle  4
+        ErrorLineWidth  1.000000
+        OriginLat       0.000000
+        OriginLon       0.000000
+        OriginAlt       0.000000
+    End
+    Begin DropLines
+        Begin PosDropLine
+            Type        0
+            Show        No
+            LineWidth   1.000000
+            LineStyle   0
+            UseObjColor On
+        End
+        Begin PosDropLine
+            Type        1
+            Show        No
+            LineWidth   1.000000
+            LineStyle   0
+            UseObjColor On
+        End
+        Begin PosDropLine
+            Type        2
+            Show        No
+            LineWidth   1.000000
+            LineStyle   0
+            UseObjColor On
+        End
+        Begin EphemDropLine
+            Type        0
+            Show        No
+            LineWidth   1.000000
+            LineStyle   0
+            UseObjColor On
+            Interval    60.000000
+        End
+        Begin EphemDropLine
+            Type        1
+            Show        No
+            LineWidth   1.000000
+            LineStyle   0
+            UseObjColor On
+            Interval    60.000000
+        End
+        Begin EphemDropLine
+            Type        2
+            Show        No
+            LineWidth   1.000000
+            LineStyle   0
+            UseObjColor On
+            Interval    60.000000
+        End
+    End
+    ObjLineAttachPt           Stg-1_Smoke-000000
+    UseObjLineAttachPt        No
+    DropLinesTo               Ellipsoid
+    IsShowingVaporTrail       Yes
+    VaporMaxPuffs             100
+    VaporColorIndex           #ffffff
+    VaporTransPriority        1
+    VaporWindSpeed            0.000000 0.000000 0.000000
+    VaporIsInSpace            No
+    VaporUseAttachPoint       No
+    VaporOutputRate           0.500000000000
+    VaporRadius               1000.000000
+    VaporExpansionRate        0.010000
+    VaporStartTime            0.000000
+    VaporEndTime              86400.000000
+    VaporIntervalPtr
+	BEGIN	EVENTINTERVAL
+			EventInterval
+				BEGIN	EVENTINTERVAL
+					Type	EVENTINTERVAL_LINKTO
+					Name	AnalysisInterval
+					AbsolutePath	Scenario
+				END	EVENTINTERVAL
+			IntervalState	Implicit
+	END	EVENTINTERVAL
+
+    VaporTexturemap           C:\Users\KSA\Documents\STK 11 (x64)\SPACEPORT_IAC2025_1\smoke.pgm
+    Begin AttitudeSphere
+        Begin LatLonSphere
+            Show                  No
+            FixScaleToModel       Yes
+            Scale                 630.957344
+            MinDegDim             0.100000
+            MaxDegDim             90.000000
+            DegDim                90.000000
+            FogDistanceFactor     75
+            LabelType             EveryOther
+            TransparentLines      Yes
+            FontIndex             0
+            LineColorIndex        #33dd77
+            ZeroDegLineColorIndex #ffff00
+            LabelColorIndex       #ffff00
+            PixelThreshold        180
+            LabelPointSize        2.000000
+            LineWidth             1.0
+            ZeroDegLineWidth      2.0
+            Begin CentralBody
+                Name              Earth
+                Show              Yes
+                ShowLabel         No
+                ShowVolume        No
+                LineWidth         2.0
+                PointSize         1.0
+                ColorIndex        #0000ff
+            End
+            Begin CentralBody
+                Name              Moon
+                Show              Yes
+                ShowLabel         Yes
+                ShowVolume        No
+                LineWidth         2.0
+                PointSize         1.0
+                ColorIndex        #ffffff
+            End
+            Begin CentralBody
+                Name              Sun
+                Show              Yes
+                ShowLabel         Yes
+                ShowVolume        No
+                LineWidth         2.0
+                PointSize         1.0
+                ColorIndex        #ffff00
+            End
+            Begin AttSphRefCrdnAxes
+				BEGIN	AXES
+					Type	AXES_LINKTO
+					Name	Inertial
+					AbsolutePath	CentralBody/Earth
+				END	AXES
+            End
+        End
+    End
+    Begin Point
+        Show No
+        Size 5.000000
+    End Point
+    UseLabelOffset            Yes
+    LabelOffsetInPixels       Yes
+    LabelXYZ                  5.000000 -4.000000 10.000000
+    Begin DynamicDataText
+        Name              "Attitude Quaternions"
+        Show               No
+        ShowTitle          Yes
+        ShowObjName        Yes
+        ReportFormat       Horizontal
+        Type               ORTHOGRAPHIC
+        AttachX            MIN
+        AttachY            MAX
+        X                  10
+        Y                  10
+        FontIndex          0
+        TextColorIndex     #ffff00
+        BGEnabled          No
+        IsBGTransparent    No
+        BGWidth            100
+        BGHeight           50
+        AutoSizeWidth      Yes
+        AutoSizeHeight     Yes
+        BGColorIndex       #999999
+        Version            1
+        VertTextAlign      BOTTOM
+        BGTranslucency     1.00
+    End
+    Begin DynamicDataText
+        Name              "Fixed Position Velocity"
+        Show               No
+        ShowTitle          Yes
+        ShowObjName        Yes
+        ReportFormat       Horizontal
+        Type               ORTHOGRAPHIC
+        AttachX            MIN
+        AttachY            MAX
+        X                  10
+        Y                  10
+        FontIndex          0
+        TextColorIndex     #ffff00
+        BGEnabled          No
+        IsBGTransparent    No
+        BGWidth            100
+        BGHeight           50
+        AutoSizeWidth      Yes
+        AutoSizeHeight     Yes
+        BGColorIndex       #999999
+        Version            1
+        VertTextAlign      BOTTOM
+        BGTranslucency     1.00
+    End
+    Begin DynamicDataText
+        Name              "J2000 Position Velocity"
+        Show               No
+        ShowTitle          Yes
+        ShowObjName        Yes
+        ReportFormat       Horizontal
+        Type               ORTHOGRAPHIC
+        AttachX            MIN
+        AttachY            MAX
+        X                  10
+        Y                  10
+        FontIndex          0
+        TextColorIndex     #ffff00
+        BGEnabled          No
+        IsBGTransparent    No
+        BGWidth            100
+        BGHeight           50
+        AutoSizeWidth      Yes
+        AutoSizeHeight     Yes
+        BGColorIndex       #999999
+        Version            1
+        VertTextAlign      BOTTOM
+        BGTranslucency     1.00
+    End
+    Begin DynamicDataText
+        Name               "LLA Position"
+        Show               Yes
+        ShowTitle          Yes
+        ShowObjName        Yes
+        ReportFormat       Horizontal
+        Type               ORTHOGRAPHIC
+        AttachX            MIN
+        AttachY            MAX
+        X                  10
+        Y                  10
+        FontIndex          1
+        TextColorIndex     #7fff00
+        BGEnabled          No
+        IsBGTransparent    Yes
+        BGWidth            364
+        BGHeight           172
+        AutoSizeWidth      Yes
+        AutoSizeHeight     Yes
+        BGColorIndex       #999999
+        Version            1
+        VertTextAlign      BOTTOM
+        BGTranslucency     0.14
+    End
+    Begin DynamicDataText
+        Name               "Altitude vs Ground Range"
+        Show               Yes
+        ShowTitle          Yes
+        ShowObjName        Yes
+        ReportFormat       Horizontal
+        Type               ORTHOGRAPHIC
+        AttachX            MAX
+        AttachY            MAX
+        X                  10
+        Y                  10
+        FontIndex          0
+        TextColorIndex     #ffffff
+        BGEnabled          No
+        IsBGTransparent    No
+        BGWidth            313
+        BGHeight           90
+        AutoSizeWidth      Yes
+        AutoSizeHeight     Yes
+        BGColorIndex       #000000
+        Version            1
+        VertTextAlign      BOTTOM
+        BGTranslucency     1.00
+        BGBorderColorIndex #ffffff
+    End
+    ShowGroundMarker          No
+    Begin GroundMarker
+        Show               No
+        Type               LineGraphic
+        Shape              Point
+        IsTransparent      No
+        OneOneBlend        No
+        Rotate             No
+        Angle              0.000000
+        HorizOrigin        Center
+        VertOrigin         Center
+        MinSize            8
+        SizeInMeters       No
+        RotateRelToNorth   No
+        UseDirectionAngle  No
+    End
